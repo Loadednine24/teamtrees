@@ -11,3 +11,51 @@ De user ID word opgeslagen op een database waar de ID = IP (maybe)
 - Unique click per day
 
 https://prod.liveshare.vsengsaas.visualstudio.com/join?FE10ED3FFC83041331521A881C3AC2B56B97
+
+
+
+
+>CSS
+.card-box = flexbox
+
+.card
+
+.card-1
+.card-2
+.card-3
+
+.center
+
+.body
+.title
+
+.button-main
+
+.logo = vista logo styling
+
+.m1 = margin 1%
+
+>HTML
+
+Logo + project name at left bottom
+3 Main divs, 
+(1 = Store, 2 = advertisement, 3 = Donate)
+Divs have button
+Divs hover = color change
+Button hover = color change
+
+>SCRIPT
+{
+Youtube video player on button click
+Browser remembers that you have watched a video in the last x = TIME
+If video not watched, show video
+Else show timer to when next video can be watched
+}
+
+{
+    Simple store check out
+}
+
+{
+    Donation page
+}
