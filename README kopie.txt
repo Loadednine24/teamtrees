@@ -15,7 +15,7 @@ https://prod.liveshare.vsengsaas.visualstudio.com/join?FE10ED3FFC83041331521A881
 
 
 
-CSS
+>CSS
 .card-box = flexbox
 
 .card
@@ -34,3 +34,28 @@ CSS
 .logo = vista logo styling
 
 .m1 = margin 1%
+
+>HTML
+
+Logo + project name at left bottom
+3 Main divs, 
+(1 = Store, 2 = advertisement, 3 = Donate)
+Divs have button
+Divs hover = color change
+Button hover = color change
+
+>SCRIPT
+{
+Youtube video player on button click
+Browser remembers that you have watched a video in the last x = TIME
+If video not watched, show video
+Else show timer to when next video can be watched
+}
+
+{
+    Simple store check out
+}
+
+{
+    Donation page
+}
