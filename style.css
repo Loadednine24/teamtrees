@@ -111,3 +111,20 @@ margin-left: calc(var(--bs-gutter-x) * -0.5);
 margin-right: calc(var(--bs-gutter-x) * -0.5);
 margin-top: calc(var(--bs-gutter-y) * -1);
 }
+
+
+.row-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: px 0;
+  }
+
+  .card {
+    border-radius: 25px;
+    background:#8a8fa3;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
