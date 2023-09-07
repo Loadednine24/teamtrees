@@ -11,3 +11,26 @@ De user ID word opgeslagen op een database waar de ID = IP (maybe)
 - Unique click per day
 
 https://prod.liveshare.vsengsaas.visualstudio.com/join?FE10ED3FFC83041331521A881C3AC2B56B97
+
+
+
+
+CSS
+.card-box = flexbox
+
+.card
+
+.card-1
+.card-2
+.card-3
+
+.center
+
+.body
+.title
+
+.button-main
+
+.logo = vista logo styling
+
+.m1 = margin 1%
