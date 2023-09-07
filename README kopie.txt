@@ -10,3 +10,4 @@ De user ID word opgeslagen op een database waar de ID = IP (maybe)
 - Database resets at 00:00 () 
 - Unique click per day
 
+https://prod.liveshare.vsengsaas.visualstudio.com/join?11E5D618E6E41AC81F8ABEDF1E99DA08D0F8
