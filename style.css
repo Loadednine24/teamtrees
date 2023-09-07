@@ -1,7 +1,9 @@
 body {
     background-color: #cccccc;
   }
-
+.flex {
+   display: block;
+}
   .title {
     position: absolute;
 
