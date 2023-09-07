@@ -111,8 +111,3 @@ margin-left: calc(var(--bs-gutter-x) * -0.5);
 margin-right: calc(var(--bs-gutter-x) * -0.5);
 margin-top: calc(var(--bs-gutter-y) * -1);
 }
-
-.box {
-align-self: center;
-height: 100%;
-}
