@@ -24,3 +24,51 @@ flex-direction:row -> column
 -
 -
 -
+
+
+
+////////////////// Oefenen met skills V.2 //////////////////
+
+.1
+-html
+-js
+-Json
+-py
+-Minecraft
+-Vrienden
+-Engels
+-Nederlands
+-Eten
+-gf
+
+.2
+-CBS
+-Data4
+-Google
+-Minecraft Development
+
+.3
+Hallo Tijl,
+Ik hoop dat jij nog steeds ambitieus bent en je project klaar is
+Mischien zelf dat het project je populair heeft gemaakt
+Hoe gaat het met de familie en Mireia?
+Wow dat is een lang verhaal zeg!
+Welke scripting talen ken jij nu al of ben jij een andere richting ingegaan?
+Het ziet er naar uit dat mijn toekomst er leuk uit ziet haha
+Woon je dus nu al op jezelf of samen met Mireia?
+En een kat?
+leuk :)
+Mischien kan je nu nog een brief schrijven voor jouzelf 10 jaar in de toekomst
+Success met je level!
+Dag dag
+
+.4
+Ok
+
+.5
+-Mijn project afmaken
+-College afmaken
+-Werken bij CBS
+-Mireia uitvragen
+-Uitgaan met vrienden
+-Geld maken 
