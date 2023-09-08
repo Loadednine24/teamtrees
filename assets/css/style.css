@@ -50,7 +50,16 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  flex-direction:row
+  flex-direction: row
+}
+
+@media (max-width: 800px) {
+  .card-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: column 
+  }
 }
 
 .box {
@@ -63,10 +72,23 @@ body {
   border-style: inset;
 }
 
+@media (max-width: 800px) {
+  .box {
+    width: 95%;
+    padding: 1em;
+    border: 3px solid #374254;
+    margin: 1em;
+    background-color: #adbbc6;
+    border-radius: 25px;
+    border-style: inset;
+  }
+}
+
 .full-height {
   min-height: 90vh;
   box-sizing: border-box;
 }
+
 
 a:link { text-decoration: none; }
 
