@@ -7,8 +7,9 @@ body {
   font-size: 10px;
 }
 
-.center {
-  position: flex;
+.center-text {
+  text-align: center;
+  font-size: 14px;
 }
 
 .buttons {
@@ -23,6 +24,11 @@ body {
   color: white;
   border-radius: 25px;
   margin: 10px 0;
+  }
+
+  .buttons:hover {
+    border: 3px solid #ffffff;
+    background-color: #374254;
   }
 
 .mid {
