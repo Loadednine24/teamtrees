@@ -50,6 +50,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  flex-direction:row
 }
 
 .box {
