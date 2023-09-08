@@ -36,7 +36,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+
+}
+
+.ad {
+  top: 15%;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
 }
 
 .img-box {
