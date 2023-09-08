@@ -57,6 +57,7 @@ on page load if = day watched =/= on page load -> reset data to current time + l
 
 
 YouTube API -> get yt views : 0.01 = money raised by views
+Vista
 }
 
 {
@@ -90,3 +91,10 @@ HEADER:
 
 ToDo:
 Make the @ thing to make it at x width go vertical scaling flexbox
+-
+-
+-
+-
+-
+-
+-
