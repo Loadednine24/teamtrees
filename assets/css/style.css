@@ -53,7 +53,7 @@ body {
   flex-direction: row
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .card-box {
     display: flex;
     justify-content: space-between;
@@ -72,7 +72,7 @@ body {
   border-style: inset;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .box {
     width: 95%;
     padding: 1em;
