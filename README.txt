@@ -50,6 +50,13 @@ Youtube video player on button click
 Browser remembers that you have watched a video in the last x = TIME
 If video not watched, show video
 Else show timer to when next video can be watched
+
+On page load -> check (if) skip to countdown = data (else) localStorage
+data = time finished watching the video
+on page load if = day watched =/= on page load -> reset data to current time + load video
+
+
+YouTube API -> get yt views : 0.01 = money raised by views
 }
 
 {
