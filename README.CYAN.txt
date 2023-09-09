@@ -18,7 +18,8 @@ HEADER:
 ToDo:
 -Make the @ thing to make it at x width go vertical scaling flexbox
 flex-direction:row -> column
--
+- button moet weg (if) unless (else) 
+Replace HTML href to new site
 -
 -
 -
