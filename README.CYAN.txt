@@ -14,6 +14,18 @@ HEADER:
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFB67H8QL4"></script>
     <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-LFB67H8QL4'); </script>
 
+WhatIAlreadyDid:
+- Help create a github account and install github desktop
+- Create a repo (Loadednine24/teamtrees) 
+- Add all people to the repo
+- Create an index.html
+- Make a sketch how the site will look like
+- Set logo
+- Add Vista Trade Mark
+- Make site flexbox go vertical on phone
+- Help with DNS
+- Fixed video
+- Setup youtube analytics (bouble check if true)
 
 ToDo:
 -Make the @ thing to make it at x width go vertical scaling flexbox
