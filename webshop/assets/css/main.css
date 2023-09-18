@@ -1,0 +1,43 @@
+
+.main {
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    overflow: hidden;
+    flex: 0 0 auto;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .card {
+    flex: auto;
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  @media (max-width: 1000px) {
+    .card {
+      flex: auto;
+      width: 100%;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  @media (max-width: 1000px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
