@@ -41,3 +41,10 @@
       flex-direction: column;
     }
   }
+
+  .main-body {
+    width: 100%;
+    margin-top: 150px;
+    top: 0;
+    left: 0;
+  }
