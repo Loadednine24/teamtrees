@@ -16,6 +16,9 @@
                     <div class="refm">
                     <a>Buy A Refurbished Nintendo</a>
                     </div>
+                    <div>
+                        <button onclick="myShopOne()">Add To Cart</button>
+                    </div>
                 </div>
                 <div class="card-inner">
                     <a href="/vista/index">
@@ -70,6 +73,11 @@
                 </div>
             </div>
         </div>
-    </div>
+        <script>
+function myShopOne() {
+localStorage.setItem("Item-1", "1");
+
+}
+        </script>
 </body>
 </html>
