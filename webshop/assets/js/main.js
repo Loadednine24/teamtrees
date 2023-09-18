@@ -26,7 +26,7 @@ document.write(`
             <a href="https://vistacollegeproject.ddns.net/webshop/services.html">Services</a>
         </div>
         <div class="card ref" id="hover-main">
-            <a href="https://vistacollegeproject.ddns.net/webshop/services.html"><i class="bi bi-bag-check"></i>    Cart</a>
+            <a href="https://vistacollegeproject.ddns.net/webshop/checkout.html"><i class="bi bi-bag-check"></i>    Cart</a>
         </div>
 </section>
 </div>
