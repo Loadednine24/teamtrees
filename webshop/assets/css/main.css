@@ -1,3 +1,6 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+body { background-color: var(--body); }
 
 .main {
     height: 130px;
@@ -12,6 +15,31 @@
     flex-direction: row;
     box-sizing: border-box;
     display: block;
+  }
+  .main-body {
+    width: 100%;
+    margin-top: 150px;
+    top: 0;
+    left: 0;
+  } 
+  .main-side {
+    display: flex;
+    flex-direction: row;
+  } 
+  
+  .main .main-logo {
+    display: flex;
+    height: 100px;
+    width: 100px;
+  }
+  .main a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1
+  }
+  .main a:hover {
+    color: #f1f1f1;
   }
 
   .card {
@@ -42,23 +70,62 @@
     }
   }
 
-  .main-body {
-    width: 100%;
-    margin-top: 150px;
-    top: 0;
-    left: 0;
-  } 
+
+  .ref {
+    padding: 35px 0;
+    text-align: center;
+  }
   
+/**/
 
+.toggle-switch {
+  position: relative;
+  width: 200px;
+}
 
+label {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background-color: var(--dark);
+  border-radius: 50px;
+  cursor: pointer;
+}
 
+input {
+  position: absolute;
+  display: none;
+}
 
+.slider {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
 
+input:checked ~ .slider {
+  background-color: var(--light);
+}
 
+.slider::before {
+  content: "";
+  position: absolute;
 
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  box-shadow: inset 28px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  transition: 0.3s;
+}
 
-
-
+input:checked ~ .slider::before {
+  transform: translateX(20px);
+  background-color: var(--dark);
+  box-shadow: none;
+}
 
 
 
