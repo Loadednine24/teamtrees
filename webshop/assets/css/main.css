@@ -40,6 +40,12 @@ body {
   width: 100px;
 }
 
+a:visited{
+  color: var(--textvar);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 a:link {
   color: var(--textvar);
   background-color: transparent;
