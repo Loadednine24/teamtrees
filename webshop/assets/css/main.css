@@ -1,170 +1,151 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
-body { background-color: var(--body); }
+body{ background-color: var(--body); }
 
-.main {
-    height: 130px;
+.main-body {
+    width: 100%;
+    margin-top: 150px;
+    top: 0;
+    left: 0;
+  }
+
+  .main-body{
+    width: 100%;
+    margin-top: 150px;
+    top: 0;
+    left: 0;
+  }
+
+.main-text {
+    margin-top: 5px;
+    color: aliceblue;
+    width: 100%;
+    left: 0;
+    text-align: right;
+}
+
+.sub-icon {
+    margin-top: 35px;
+    text-align: center;
+    width: 55px;
+    font-size:x-large;
+}
+
+.sub-text {
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+    width: 100px;
+}
+
+.pic{
+    height: 550px;
+    display: flex;
+    bottom: 0;
+    right: 0;
+} 
+
+.index{
+    height: 30px;
     width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: var(--main);
+    background-color: var(--index);
     overflow: hidden;
     flex: 0 0 auto;
     flex-direction: row;
     box-sizing: border-box;
     display: block;
-  }
-  
-  .main-body {
-    width: 100%;
-    margin-top: 150px;
-    top: 0;
-    left: 0;
-  } 
-  .main-side {
-    display: flex;
-    flex-direction: row;
-  } 
-  
-  .main .main-logo {
-    display: flex;
+}
+
+
+.index .sub-top{
     height: 100px;
-    width: 100px;
-  }
-
-  .main a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000000
-  }
-  .main a:hover {
-    font-weight: bold;
-  }
-
-  .card {
-    flex: auto;
     width: 100%;
-    margin-right: 15px;
-    margin-left: 15px;
-  }
-  
-  @media (max-width: 1000px) {
-    .card {
-      flex: auto;
-      width: 100%;
-      margin-right: 0px;
-      margin-left: 0px;
-    }
-  }
-  
-  .row {
-    display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    left: 0;
+    background-color: var(--index-sub);
+    overflow: hidden;
+    flex: 0 0 auto;
     flex-direction: row;
-  }
-  
-  @media (max-width: 1000px) {
-    .row {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-
-
-  .ref {
-    padding: 35px 0;
-    text-align: center;
-  }
-
-  .refm {
-    text-align: center;
-  }
-  
-/**/
-
-.toggle-switch {
-  position: relative;
-  width: 200px;
+    box-sizing: border-box;
+    display: block;
 }
 
-label {
-  position: absolute;
-  width: 40px;
-  height: 20px;
-  background-color: var(--dark);
-  border-radius: 50px;
-  cursor: pointer;
+.index .sub-top .logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
 }
 
-input {
-  position: absolute;
-  display: none;
+.index .sub-bottom{
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: var(--index-sub);
+    overflow: hidden;
+    flex: 0 0 auto;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: block;
 }
 
-.slider {
-  position: absolute;
-  width: 40px;
-  height: 20px;
-  border-radius: 50px;
-  transition: 0.3s;
+.center{
+    display: flex;
+    justify-content: center;
+}
+.index .sub-bottom .center .tag{
+background-color: black;
+}
+.index-pic {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    max-width: 320px;
+    min-width: 25px;
+    width: 100px;
+    height: 250px;
 }
 
-input:checked ~ .slider {
-  background-color: var(--light);
+.pre-absolute{
+    position: absolute;
 }
-
-.slider::before {
-  content: "";
-  position: absolute;
-
-  width: 20px;
-  height: 20px;
-  border-radius: 15px;
-  box-shadow: inset 28px -4px 0px 0px var(--light);
-  background-color: var(--dark);
-  transition: 0.3s;
+.absolute{
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-left: 10%;
 }
-
-input:checked ~ .slider::before {
-  transform: translateX(20px);
-  background-color: var(--dark);
-  box-shadow: none;
-}
-
-body .col-lg-9 {
-  flex: 0 0 auto;
-  width: 100%;
-}
-
-.card-inner {
-  border-radius: 25px;
-  background: var(--box);
-  padding: 20px;
-  width: 100%;
-  margin-right: 15px;
-  margin-left: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.card-inner .main-shop {
-  flex: 0 0 auto;
-  flex-direction: column;
-  border-radius: 25px;
-  max-width: 100%;
-  min-width: 25%;
-  width: 100%;
-  height: 90%;
-    }
 
 .row { 
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
+.sub-row { 
+    display: flex;
+    flex-direction: row;
+    max-height: 100px;
+    justify-content:flex-end;
+}
 
+  
+  
+  
+  
+  
 
 
 
@@ -292,23 +273,24 @@ body .col-lg-9 {
 
 
   /* Jerom */
-  body{
+.body{
     width: 100%;
     height: 100vh;
-background-color: rgba(183, 185, 183, 0.652);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-h1{background-color: black;
-color: #0a0a0a;
-width: 150%;
-font-size: 500%;
+
+.h1{
+    background-color: black;
+    color: #070707;
+    width: 150%;
+    font-size: 350%;
 }
 
-.logo{
-  width: 80%;
-  height: 60%;
-}
+
+
+
     
