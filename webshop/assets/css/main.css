@@ -1,144 +1,149 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
-body{ background-color: var(--body); }
+body {
+  background-color: var(--body);
+}
 
 .main-body {
-    width: 100%;
-    margin-top: 150px;
-    top: 0;
-    left: 0;
-  }
+  width: 100%;
+  margin-top: 150px;
+  top: 0;
+  left: 0;
+}
 
-  .main-body{
-    width: 100%;
-    margin-top: 150px;
-    top: 0;
-    left: 0;
-  }
+.main-body {
+  width: 100%;
+  margin-top: 150px;
+  top: 0;
+  left: 0;
+}
 
 .main-text {
-    margin-top: 5px;
-    color: aliceblue;
-    width: 100%;
-    left: 0;
-    text-align: right;
+  margin-top: 5px;
+  color: aliceblue;
+  width: 100%;
+  left: 0;
+  text-align: right;
 }
 
 .sub-icon {
-    margin-top: 35px;
-    text-align: center;
-    width: 55px;
-    font-size:x-large;
+  margin-top: 35px;
+  text-align: center;
+  width: 55px;
+  font-size: x-large;
 }
 
 .sub-text {
-    margin-top: 40px;
-    text-align: center;
-    color: black;
-    width: 100px;
+  margin-top: 40px;
+  text-align: center;
+  color: black;
+  width: 100px;
 }
 
-.pic{
-    height: 550px;
-    display: flex;
-    bottom: 0;
-    right: 0;
-} 
+.pic {
+  height: 550px;
+  display: flex;
+  bottom: 0;
+  right: 0;
+}
 
-.index{
-    height: 30px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: var(--index);
-    overflow: hidden;
-    flex: 0 0 auto;
-    flex-direction: row;
-    box-sizing: border-box;
-    display: block;
+.index {
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--index);
+  overflow: hidden;
+  flex: 0 0 auto;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: block;
 }
 
 
-.index .sub-top{
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 30px;
-    left: 0;
-    background-color: var(--index-sub);
-    overflow: hidden;
-    flex: 0 0 auto;
-    flex-direction: row;
-    box-sizing: border-box;
-    display: block;
+.index .sub-top {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 30px;
+  left: 0;
+  background-color: var(--index-sub);
+  overflow: hidden;
+  flex: 0 0 auto;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: block;
 }
 
-.index .sub-top .logo{
-    margin-top: 10px;
-    margin-left: 10px;
-    height: 80px;
-    width: 80px;
+.index .sub-top .logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 80px;
+  width: 80px;
 }
 
-.index .sub-bottom{
-    height: 300px;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    background-color: var(--index-sub);
-    overflow: hidden;
-    flex: 0 0 auto;
-    flex-direction: row;
-    box-sizing: border-box;
-    display: block;
+.index .sub-bottom {
+  height: 300px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: var(--index-sub);
+  overflow: hidden;
+  flex: 0 0 auto;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: block;
 }
 
-.center{
-    display: flex;
-    justify-content: center;
+.center {
+  display: flex;
+  justify-content: center;
 }
-.index .sub-bottom .center .tag{
-background-color: black;
+
+.index .sub-bottom .center .tag {
+  background-color: black;
 }
+
 .index-pic {
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-    flex: 0 0 auto;
-    flex-direction: column;
-    max-width: 320px;
-    min-width: 25px;
-    width: 100px;
-    height: 250px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 320px;
+  min-width: 25px;
+  width: 100px;
+  height: 250px;
 }
 
-.pre-absolute{
-    position: absolute;
-}
-.absolute{
-    position: absolute;
-    bottom: 0;
-    width: 80%;
-    height: 25px;
-    margin-bottom: 20px;
-    margin-left: 10%;
+.pre-absolute {
+  position: absolute;
 }
 
-.row { 
-    display: flex;
-    flex-direction: row;
+.absolute {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 25px;
+  margin-bottom: 20px;
+  margin-left: 10%;
 }
 
-.sub-row { 
-    display: flex;
-    flex-direction: row;
-    max-height: 100px;
-    justify-content:flex-end;
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub-row {
+  display: flex;
+  flex-direction: row;
+  max-height: 100px;
+  justify-content: flex-end;
 }
 
   
@@ -290,7 +295,14 @@ background-color: black;
     font-size: 350%;
 }
 
-
+.navbar li a
+{
+  text-decoration: underline black;
+  color: aliceblue;
+  text-transform: uppercase;
+  background-color: rgb(6, 6, 6);
+  
+}
 
 
     
