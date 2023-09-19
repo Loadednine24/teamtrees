@@ -28,13 +28,13 @@ document.write(`
         </div>
 
         <div class="sub-icon">
-            <i class="bi bi-search"></i>
+        <a href="index"><i class="bi bi-search"></i>
         </div>
         <div class="sub-icon">
-            <i class="bi bi-person-circle"></i>
+            <a href="user"><i class="bi bi-person-circle"></i>
         </div>
         <div class="sub-icon">
-            <i class="bi bi-cart"></i>
+            <a href="checkout"><i class="bi bi-cart"></i></a>
         </div>
     </div>
 </div>
