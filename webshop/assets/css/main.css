@@ -36,9 +36,16 @@ body {
 .sub-text {
   margin-top: 40px;
   text-align: center;
-  color: black;
+  color: var(--textvar);
   width: 100px;
 }
+
+a:link {
+  color: var(--textvar);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 
 .pic {
   height: 550px;
