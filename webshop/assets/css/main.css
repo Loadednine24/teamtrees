@@ -295,7 +295,14 @@ body {
     font-size: 350%;
 }
 
-
+.navbar li a
+{
+  text-decoration: underline black;
+  color: aliceblue;
+  text-transform: uppercase;
+  background-color: rgb(6, 6, 6);
+  
+}
 
 
     
