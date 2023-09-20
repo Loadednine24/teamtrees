@@ -420,5 +420,32 @@ input.c-empty, input.c-checkout {
   
 }
 
+.tekst
+{
+  color: rgb(133, 17, 191);
+  font-weight: 400;
+  font-family: Arial,Helvetica,"Nimbus Sans L","Liberation Sans","FreeSans",sans-serif;;
+}
+
+.tekst2
+{
+  text-decoration: underline black;
+  font-weight: 600;
+  font-family: Arial,Helvetica,"Nimbus Sans L","Liberation Sans","FreeSans",sans-serif;;
+}
+
+.tekst3
+{
+  font-family: Arial,Helvetica,"Nimbus Sans L","Liberation Sans","FreeSans",sans-serif;;
+}
+
+hr 
+{
+  border: 0 none;
+  height: 1px;
+  color: #ffffff;
+}
+
+
 
     
