@@ -1,5 +1,5 @@
 document.write(`
-<div class="index">
+<div class="index" id="index">
 <div class="row-top">
     <div class="dropdown">
         <button class="button-top">Switch Dark/Light Mode<i class="bi bi-caret-down-fill"></i></button>
@@ -7,7 +7,6 @@ document.write(`
             <input type="checkbox" id="switch" name="theme"  /><label for="switch">dark/light</label>
             
         </div>
-    </div>
     </div>
     <div class="dropdown">
         <button class="button-top">Language<i class="bi bi-caret-down-fill"></i></button>
@@ -34,10 +33,8 @@ document.write(`
             </picture>
             </div>
         <div class="sub-row">
-    
-    
             <div class="sub-text">
-                <a href="/">Home</a>
+                <a href="index">Home</a>
             </div>
             <div class="sub-text">
                 <a href="sale">Sale</a>
@@ -59,6 +56,7 @@ document.write(`
                 <a href="checkout"><i class="bi bi-cart"></i></a>
             </div>
         </div>
+    </div>
     </div>
     </div>
 `);
