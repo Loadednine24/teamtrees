@@ -242,10 +242,11 @@ a:link {
   margin-right: 5%;
   max-width: 400px;
   position: absolute;
-  height: 70%;
+  height: 87%;
   margin-top: 130px;
   top: 0;
   right: 0;
+  font-size: medium;
 }
 input.cart, button.cart {
   font-weight: bold;
@@ -256,6 +257,7 @@ input.cart, button.cart {
   background: #ff6b6c;
   border-style: inset;
   cursor: pointer;
+  height: min-content;
 }
 
 
@@ -305,6 +307,7 @@ input.p-add { width: 80%; }
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 10px;
+  
 }
 .c-name {
   width: 100%;
@@ -315,6 +318,7 @@ input.p-add { width: 80%; }
 .c-qty {
   width: 75%;
   font-size: 1em;
+  height: 36px;
 }
 input.c-empty, input.c-checkout {
   width: 100%;
@@ -322,7 +326,7 @@ input.c-empty, input.c-checkout {
 }
 
 /* (E) RESPONSIVE */
-@media screen AND (max-width: 1820px) {
+@media screen AND (max-width: 3000px) {
   #cart-wrap { grid-template-columns: 100%;}
   #cart-products { grid-template-columns: auto; }
   #cart-items { grid-template-columns: auto; }
