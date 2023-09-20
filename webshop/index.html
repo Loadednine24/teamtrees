@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <script src="assets/js/head.js"></script>
     <title>Home</title>
 </head>
 <body>
-    <div class="index">
+    <div class="index" id="index">
     <div class="row-top">
         <div class="dropdown">
             <button class="button-top">Switch Dark/Light Mode<i class="bi bi-caret-down-fill"></i></button>
             <div class="dropdown-content">
-                <a href="#">Dark</a>
-                <a href="#">Light</a>
+                <input type="checkbox" id="switch" name="theme"  /><label for="switch">dark/light</label>
+                
             </div>
         </div>
         <div class="dropdown">
@@ -113,5 +112,6 @@
                 </div>
             </div>
       </div>
+      <script src="assets/js/darklight.js"></script>
 </body>
 </html>

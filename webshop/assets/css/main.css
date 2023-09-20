@@ -236,6 +236,35 @@ a:link {
 
   /* Wesley */
 
+  html[data-theme='dark']{
+      --index: #1d1d1d;
+      --index-sub: #383838;
+      --main: #4A5C6A;
+      --box: #9BA8AB;
+      --body: #a3a3a3;
+    
+      --textvar: #ffffff;
+      --light: #d8dbe0;
+      --dark: #28292c;
+      --link: rgb(27, 129, 112);
+      --link-hover: rgb(24, 94, 82);
+    }
+
+
+    html[data-theme='light']{
+        --index: #1d1d1d;
+        --index-sub: #ffffff;
+        --main: #4A5C6A;
+        --box: #9BA8AB;
+        --body: #cfcfcf;
+      
+        --textvar: #020202;
+        --light: #d8dbe0;
+        --dark: #28292c;
+        --link: rgb(27, 129, 112);
+        --link-hover: rgb(24, 94, 82);
+      }
+
 
 
   

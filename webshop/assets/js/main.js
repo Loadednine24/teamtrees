@@ -4,9 +4,10 @@ document.write(`
     <div class="dropdown">
         <button class="button-top">Switch Dark/Light Mode<i class="bi bi-caret-down-fill"></i></button>
         <div class="dropdown-content">
-            <a href="#">Dark</a>
-            <a href="#">Light</a>
+            <input type="checkbox" id="switch" name="theme"  /><label for="switch">dark/light</label>
+            
         </div>
+    </div>
     </div>
     <div class="dropdown">
         <button class="button-top">Language<i class="bi bi-caret-down-fill"></i></button>
