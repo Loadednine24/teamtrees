@@ -59,39 +59,5 @@ document.write(`
             </div>
         </div>
     </div>
-    <div class="sub-bottom">
-        <div class="center">
-            <div class="pre-absolute" style="margin-left: 60%;">
-                <form action="clothing.html" method="get">
-                    <button class="absolute button-bottom">
-                        Clothing
-                    </button>
-                </form>
-                <a href="clothes.html">
-                <img class="index-pic" src="assets/pics/clothes.webp" style="width:auto;">
-                </a>
-            </div>
-            <div  class="pre-absolute">
-                <form action="hardware.html" method="get">
-                    <button class="absolute button-bottom">
-                        Hardware
-                    </button>
-                </form>
-                <a href="equipment.html">
-                <img class="index-pic" src="assets/pics/equipment.webp" style="width:auto;">
-                </a>
-            </div>
-            <div  class="pre-absolute"  style="margin-right: 60%;">
-                <form action="checkout.html" method="get">
-                    <button class="absolute button-bottom">
-                        Cloud Services
-                    </button>
-                </form>
-                <a href="cloud.html">
-                <img class="index-pic" src="assets/pics/cloud.webp" style="width:auto;">
-                </a>
-            </div>
-        </div>
-    </div>
     </div>
 `);
