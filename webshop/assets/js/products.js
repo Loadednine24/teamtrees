@@ -7,10 +7,10 @@ PRODUCTS
 // DUMMY PRODUCTS (PRODUCT ID : DATA)
 var products = {
   123: {
-    name : "MokBook Thicc",
-    desc : "Greatest properly off ham exercise all.",
-    img : "dummy-pdt-b.jpg",
-    price : 2034
+    name : "Flex Book",
+    desc : "New Laptop With I9 and GF3080",
+    img : "hardware.webp",
+    price : 999
   },
   124: {
     name : "MokBook Rookie",
