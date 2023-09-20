@@ -8,4 +8,5 @@ document.write(`
 <link rel="icon" href="assets/logo/favicon-32x32.png" type="image/png" sizes="32x32"/>
 <link rel="icon" href="assets/logo/favicon-16x16.png" type="image/png" sizes="16x16"/>
 <link rel="manifest" href="assets/logo/site.webmanifest"/>
+<script src="assets/js/darklight.js"></script>
 `);
