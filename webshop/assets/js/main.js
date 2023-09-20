@@ -59,5 +59,4 @@ document.write(`
     </div>
     </div>
     </div>
-    <script src="assets/js/darklight.js"></script>
 `);
