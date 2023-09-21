@@ -10,13 +10,7 @@ const light = () => {
     localStorage.setItem("data-theme", 'light') // save theme to local storage
 }
 
-
-
-
-
-
 // Get the element based on ID
-
 // Apply retrived them to the website
 checkbox.addEventListener('change', () => {
     let theme = localStorage.getItem('data-theme'); // Retrieve saved them from local storage
@@ -26,3 +20,11 @@ checkbox.addEventListener('change', () => {
         dark()
     }   
 });
+
+window.onload = function(){  
+    if (theme ==='dark'){
+        dark()
+    }else{
+        light()
+    }    
+    }  

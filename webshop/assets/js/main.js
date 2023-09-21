@@ -4,8 +4,7 @@ document.write(`
     <div class="dropdown">
         <button class="button-top">Switch Dark/Light Mode<i class="bi bi-caret-down-fill"></i></button>
         <div class="dropdown-content">
-            <input type="checkbox" id="switch" name="theme"  /><label for="switch">dark/light</label>
-            
+            <input class="switch" type="checkbox" id="switch" name="theme"  /><label for="switch"></label>
         </div>
     </div>
     <div class="dropdown">
