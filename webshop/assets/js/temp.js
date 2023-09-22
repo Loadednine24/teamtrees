@@ -1,1 +1,0 @@
-document.getElementById('meow').innerHTML = localStorage.getItem('cart');

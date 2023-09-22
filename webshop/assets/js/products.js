@@ -1,20 +1,3 @@
-/*
-
-PRODUCTS
-
-*/
-
-// DUMMY PRODUCTS (PRODUCT ID : DATA)
-
-
-/*
-
-
-CART
-
-
-*/
-
 var cart = {
   // (A) PROPERTIES
   hPdt : null, // HTML products list
