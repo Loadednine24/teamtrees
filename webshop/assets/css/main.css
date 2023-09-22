@@ -1,23 +1,39 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
+html[data-theme='dark'] {
+  --main-0: #212529;
+  --main-1: #343a40;
+  --main-2: #495057;
+  --main-3: #6c757d;
+  --main-4: #adb5bd;
+  --sub: #4ECCA3;
+  --sub-hover: #ff6b6c;
+
+  --text: #ffffff;
+}
+
+html[data-theme='light'] {
+  --main-0: #ced4da;
+  --main-1: #dee2e6;
+  --main-2: #e9ecef;
+  --main-3: #f8f9fa;
+  --main-4: #adb5bd;
+  --sub: #4ECCA3;
+  --sub-hover: #ff6b6c;
+
+  --text: #000;
+}
+
 body {
-  background-color: var(--body);
+  background-color: var(--main-3);
   font-size: xx-large;
 }
 
 .main-body {
   width: 100%;
   margin-top: 150px;
-  top: 0;
-  left: 0;
 }
 
-.main-body {
-  width: 100%;
-  margin-top: 150px;
-  top: 0;
-  left: 0;
-}
 
 .main-text {
   margin-top: 5px;
@@ -66,7 +82,7 @@ a:link {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--index);
+  background-color: var(--main-0);
   overflow: visible;
   flex: 0 0 auto;
   flex-direction: row;
@@ -78,18 +94,14 @@ a:link {
   height: 100px;
   width: 100%;
   position: fixed;
-  /* z-index: 1; */
   top: 30px;
   left: 0;
-  background-color: var(--index-sub);
-  /* overflow: hidden; */
-  /* flex: 0 0 auto;
-  flex-direction: row; */
+  background-color: var(--main-2);
   box-sizing: border-box;
   display: block;
 }
 
-.index .sub-top .logo {
+.index .logo {
   margin-top: 10px;
   margin-left: 10px;
   height: 80px;
@@ -103,7 +115,7 @@ a:link {
   z-index: 1;
   bottom: 0;
   left: 0;
-  background-color: var(--index-sub);
+  background-color: var(--main-0);
   overflow: hidden;
   flex: 0 0 auto;
   flex-direction: row;
@@ -127,22 +139,14 @@ a:link {
   flex: 0 0 auto;
   flex-direction: column;
   max-width: 320px;
-  min-width: 25px;
+  min-width: 320px;
   width: 100px;
   height: 250px;
+  border: 5px solid var(--text);
 }
 
 .pre-absolute {
   position: absolute;
-}
-
-.absolute {
-  position: absolute;
-  bottom: 0;
-  width: 80%;
-  height: 25px;
-  margin-bottom: 20px;
-  margin-left: 10%;
 }
 
 .row {
@@ -198,7 +202,7 @@ a:link {
 }
 
 .button {
-  background-color: #ff6b6c;
+  background-color: var(--sub);
   color: azure;
   border: none;
   border-radius: 25px;
@@ -208,11 +212,16 @@ a:link {
 }
 
 .button-bottom {
-  background-color: #ff6b6c;
+  background-color: var(--sub);
   color: azure;
   border: none;
   cursor: pointer;
-  border-style: inset;
+  position: absolute;
+  bottom: 0;
+  width: 320px;
+  height: 25px;
+  margin-bottom: 20px;
+  margin-left: 30px;
 }
 
 .button-top {
@@ -221,18 +230,9 @@ a:link {
   font-size: medium;
 }
 
-.button-bottom:hover {
-  background-color: #ffc145;
-}
-
+.button-bottom:hover,
 .button:hover {
-  background-color: #ffc145;
-}
-
-.out {
-  visibility: hidden;
-  overflow: hidden;
-  position: absolute;
+  background-color: var(--sub-hover);
 }
 
 /* (A) ENTIRE PAGE */
@@ -242,7 +242,7 @@ a:link {
 
 input.cart,
 button.cart {
-  background-color: #ff6b6c;
+  background-color: var(--sub-hover);
   color: azure;
   border: none;
   cursor: pointer;
@@ -338,33 +338,7 @@ input.c-checkout {
 
 /* Wesley */
 
-html[data-theme='dark'] {
-  --index: #1d1d1d;
-  --index-sub: #383838;
-  --main: #4A5C6A;
-  --box: #9BA8AB;
-  --body: #a3a3a3;
 
-  --textvar: #ffffff;
-  --light: #d8dbe0;
-  --dark: #28292c;
-  --link: rgb(27, 129, 112);
-  --link-hover: rgb(24, 94, 82);
-}
-
-html[data-theme='light'] {
-  --index: #1d1d1d;
-  --index-sub: #ffffff;
-  --main: #4A5C6A;
-  --box: #9BA8AB;
-  --body: #cfcfcf;
-
-  --textvar: #020202;
-  --light: #d8dbe0;
-  --dark: #28292c;
-  --link: rgb(27, 129, 112);
-  --link-hover: rgb(24, 94, 82);
-}
 
 
 
