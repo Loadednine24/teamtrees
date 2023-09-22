@@ -32,7 +32,7 @@ var products = {
   },
   127: {
     name : "Routers",
-    desc : "Dis is een router",
+    desc : "Dit is een router",
     img : "router.webp",
     price : 99 
   }
