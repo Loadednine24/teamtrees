@@ -10,9 +10,9 @@ document.write(`
     <div class="dropdown">
         <button class="button-top">Meow meow<i class="bi bi-caret-down-fill"></i></button>
         <div class="dropdown-content">
-            <a href="#">Nederlands</a>
-            <a href="#">English</a>
-            <a href="#">Meow Meow</a>
+            <a href="../nl/index">Nederlands</a>
+            <a href="../en/index">English</a>
+            <a href="../meow/index">Meow Meow</a>
         </div>
     </div>
     <div class="dropdown">
