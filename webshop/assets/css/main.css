@@ -255,21 +255,31 @@ button.cart:hover {
 }
 
 /* (B) PRODUCTS LIST */
-#cart-products {}
+#cart-products {
+  width: 400px;
+  display: grid;
+  grid-template-areas: "a a a a a";
+  gap: 10px;
+  grid-auto-rows: 400px;
+}
 
 .p-item {}
 
 .p-name {}
 
-.p-img {}
-
+.p-img {
+  height: 250px;
+  width: 250px;
+}
 .p-desc {}
 
 .p-price {}
 
 input.p-add {}
 
-.card-wf {}
+.card-wf {
+  
+}
 
 /* (D) CURRENT SHOPPING CART */
 #cart-items {
@@ -479,6 +489,14 @@ html[data-theme='light'] {
   ;
 }
 
+.tekst-page
+{
+ font-size: large;
+ font-family: Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", "FreeSans", sans-serif;
+ margin: 10%;
+ margin-bottom: 20%;
+}
+
 hr {
   border: 0 none;
   height: 1px;
@@ -489,6 +507,7 @@ hr {
 {
   width: 350px;
   height: 300px;
+  border-radius: 3%;
   margin-top: 50%
 }
 
@@ -496,7 +515,10 @@ hr {
 {
   width: 350px;
   height: 300px;
-  margin-top: 48%
+  border-radius: 3%;
+  margin-bottom: 0%;
+  margin-left: 7%;
+  margin-top: 41%
 }
 
 .pages-pic2
@@ -504,9 +526,19 @@ hr {
   width: 400px;
   height: 300px;
   margin-left: 0%;
-  margin-top: 67%
+  border-radius: 3%;
+  margin-bottom: 5%;
+  margin-top: 68%
 }
 
+#Image
+{
+    width: 100%;
+    height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
 
 
     
