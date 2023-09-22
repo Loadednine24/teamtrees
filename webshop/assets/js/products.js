@@ -13,22 +13,28 @@ var products = {
     price : 999
   },
   124: {
-    name : "MokBook Rookie",
-    desc : "Unsatiable its possession nor off.",
-    img : "dummy-pdt-b.jpg",
-    price : 1247
+    name : "Printer",
+    desc : "kan goed printer :)",
+    img : "printer.webp",
+    price : 399
   },
   125: {
-    name : "iPong Max",
-    desc : "All difficulty unreserved the solicitude.",
-    img : "dummy-pdt-a.jpg",
-    price : 675
+    name : "Server-storage",
+    desc : "1PB per slot",
+    img : "server.webp",
+    price : 3999
   },
   126: {
-    name : "iTab Pok",
-    desc : "Had judgment out property the supplied. ",
-    img : "dummy-pdt-a.jpg",
-    price : 842
+    name : "Telecom",
+    desc : "Local Telecom system",
+    img : "tele.webp",
+    price : 9
+  },
+  127: {
+    name : "Routers",
+    desc : "Dis is een router",
+    img : "router.webp",
+    price : 99 
   }
 };
 

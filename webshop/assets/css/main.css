@@ -41,7 +41,7 @@ body {
   width: 100px;
 }
 
-a:visited{
+a:visited {
   color: var(--textvar);
   background-color: transparent;
   text-decoration: none;
@@ -52,7 +52,6 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-
 
 .pic {
   height: 550px;
@@ -68,13 +67,12 @@ a:link {
   top: 0;
   left: 0;
   background-color: var(--index);
-  overflow:visible;
+  overflow: visible;
   flex: 0 0 auto;
   flex-direction: row;
   box-sizing: border-box;
   display: block;
 }
-
 
 .sub-top {
   height: 100px;
@@ -167,7 +165,6 @@ a:link {
   justify-content: flex-end;
 }
 
-/* test*/
 
 .dropdown {
   position: relative;
@@ -180,7 +177,7 @@ a:link {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -191,9 +188,14 @@ a:link {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block; font-size:medium;}
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-size: medium;
+}
 
 .button {
   background-color: #ff6b6c;
@@ -216,72 +218,90 @@ a:link {
 .button-top {
   all: unset;
   color: azure;
-  font-size:medium;
+  font-size: medium;
 }
+
 .button-bottom:hover {
   background-color: #ffc145;
 }
 
-.button:hover  {
+.button:hover {
   background-color: #ffc145;
 }
 
 .out {
   visibility: hidden;
-  overflow:hidden;
-  position:absolute;
+  overflow: hidden;
+  position: absolute;
 }
 
 /* (A) ENTIRE PAGE */
 #cart-wrap {
-
+  max-width: 350px;
 }
-input.cart, button.cart {
 
+input.cart,
+button.cart {
+  background-color: #ff6b6c;
+  color: azure;
+  border: none;
+  cursor: pointer;
+  border-style: inset;
+}
+
+input.cart:hover,
+button.cart:hover {
+  background-color: #ffc145;
 }
 
 /* (B) PRODUCTS LIST */
-#cart-products {
+#cart-products {}
 
-}
-.p-item {
+.p-item {}
 
-}
-.p-name {
+.p-name {}
 
-}
-.p-img {
+.p-img {}
 
-}
-.p-desc {
+.p-desc {}
 
-}
-.p-price {
+.p-price {}
 
-}
-input.p-add { 
+input.p-add {}
 
- }
+.card-wf {}
 
 /* (D) CURRENT SHOPPING CART */
 #cart-items {
-
+  background-color: #9BA8AB;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  margin-top: -20px;
+  margin-right: 50px;
+  max-width: 30%;
+  min-width: 18%;
 }
+
 .c-item {
-
+  margin-left: 10px;
 }
+
 .c-name {
-
+  margin-left: 10px;
 }
+
 .c-del {
-
+  margin-left: 10px;
 }
-.c-qty {
 
-}
-input.c-empty, input.c-checkout {
+.c-qty {}
 
+input.c-empty {
+  margin-left: 20px;
 }
+
+input.c-checkout {}
 
 /* (E) RESPONSIVE */
 /* @media screen AND (max-width: 768px) {
@@ -292,165 +312,160 @@ input.c-empty, input.c-checkout {
 
 
 
-  /* Wesley */
-
-  html[data-theme='dark']{
-      --index: #1d1d1d;
-      --index-sub: #383838;
-      --main: #4A5C6A;
-      --box: #9BA8AB;
-      --body: #a3a3a3;
-    
-      --textvar: #ffffff;
-      --light: #d8dbe0;
-      --dark: #28292c;
-      --link: rgb(27, 129, 112);
-      --link-hover: rgb(24, 94, 82);
-    }
-
-
-    html[data-theme='light']{
-        --index: #1d1d1d;
-        --index-sub: #ffffff;
-        --main: #4A5C6A;
-        --box: #9BA8AB;
-        --body: #cfcfcf;
-      
-        --textvar: #020202;
-        --light: #d8dbe0;
-        --dark: #28292c;
-        --link: rgb(27, 129, 112);
-        --link-hover: rgb(24, 94, 82);
-      }
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Jerom */
-.body{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+/* Wesley */
+
+html[data-theme='dark'] {
+  --index: #1d1d1d;
+  --index-sub: #383838;
+  --main: #4A5C6A;
+  --box: #9BA8AB;
+  --body: #a3a3a3;
+
+  --textvar: #ffffff;
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
+}
+
+html[data-theme='light'] {
+  --index: #1d1d1d;
+  --index-sub: #ffffff;
+  --main: #4A5C6A;
+  --box: #9BA8AB;
+  --body: #cfcfcf;
+
+  --textvar: #020202;
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
 }
 
 
-.h1{
-    background-color: black;
-    color: #070707;
-    width: 150%;
-    font-size: 350%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jerom */
+.body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.navbar li a
-{
+
+.h1 {
+  background-color: black;
+  color: #070707;
+  width: 150%;
+  font-size: 350%;
+}
+
+.navbar li a {
   text-decoration: underline black;
   color: rgb(250, 250, 250);
   text-transform: uppercase;
   background-color: rgb(6, 6, 6);
-  
+
 }
 
-.tekst
-{
+.tekst {
   color: rgb(133, 17, 191);
   font-weight: 400;
-  font-family: Arial,Helvetica,"Nimbus Sans L","Liberation Sans","FreeSans",sans-serif;;
+  font-family: Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", "FreeSans", sans-serif;
+  ;
 }
 
-.tekst2
-{
+.tekst2 {
   text-decoration: underline black;
   font-weight: 600;
-  font-family: Arial,Helvetica,"Nimbus Sans L","Liberation Sans","FreeSans",sans-serif;;
+  font-family: Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", "FreeSans", sans-serif;
+  ;
 }
 
-.tekst3
-{
-  font-family: Arial,Helvetica,"Nimbus Sans L","Liberation Sans","FreeSans",sans-serif;;
+.tekst3 {
+  font-family: Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", "FreeSans", sans-serif;
+  ;
 }
 
-hr 
-{
+hr {
   border: 0 none;
   height: 1px;
   color: #ffffff;
