@@ -255,21 +255,31 @@ button.cart:hover {
 }
 
 /* (B) PRODUCTS LIST */
-#cart-products {}
+#cart-products {
+  width: 400px;
+  display: grid;
+  grid-template-areas: "a a a a a";
+  gap: 10px;
+  grid-auto-rows: 400px;
+}
 
 .p-item {}
 
 .p-name {}
 
-.p-img {}
-
+.p-img {
+  height: 250px;
+  width: 250px;
+}
 .p-desc {}
 
 .p-price {}
 
 input.p-add {}
 
-.card-wf {}
+.card-wf {
+  
+}
 
 /* (D) CURRENT SHOPPING CART */
 #cart-items {
