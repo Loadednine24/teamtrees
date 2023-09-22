@@ -241,7 +241,18 @@ a:link {
 }
 
 input.cart,
-button.cart {}
+button.cart {
+  background-color: #ff6b6c;
+  color: azure;
+  border: none;
+  cursor: pointer;
+  border-style: inset;
+}
+
+input.cart:hover,
+button.cart:hover {
+  background-color: #ffc145;
+}
 
 /* (B) PRODUCTS LIST */
 #cart-products {}
