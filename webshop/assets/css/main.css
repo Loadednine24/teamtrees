@@ -276,11 +276,11 @@ input.p-add {}
   background-color: #9BA8AB;
   position: absolute;
   right: 0;
-  height: 100%;
-  margin-top: -20px;
+  height: 75%;
+  margin-top: 20px;
   margin-right: 50px;
   max-width: 30%;
-  min-width: 18%;
+  min-width: 300px;
 }
 
 .c-item {
@@ -295,13 +295,27 @@ input.p-add {}
   margin-left: 10px;
 }
 
-.c-qty {}
+.c-qty {
+  width: 75%;
+}
 
 input.c-empty {
   margin-left: 20px;
+  width: 85%;
 }
 
-input.c-checkout {}
+input.c-checkout {
+  margin-left: 20px;
+  width: 85%;
+}
+
+.payout {
+  position: absolute;
+  margin-top: 20px;
+  background-color: #9BA8AB;
+  width: 75%;
+  height: 75%;
+}
 
 /* (E) RESPONSIVE */
 /* @media screen AND (max-width: 768px) {
