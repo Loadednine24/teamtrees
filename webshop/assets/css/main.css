@@ -231,105 +231,63 @@ a:link {
   overflow:hidden;
   position:absolute;
 }
-/* cart */
 
 /* (A) ENTIRE PAGE */
 #cart-wrap {
-  font-family: arial, sans-serif;
-  display: grid;
-  grid-template-columns: 100%;
-  margin: 0 auto;
-  margin-right: 5%;
-  max-width: 400px;
-  position: absolute;
-  height: 87%;
-  margin-top: 130px;
-  top: 0;
-  right: 0;
-  font-size: medium;
+
 }
 input.cart, button.cart {
-  font-weight: bold;
-  font-size: 1em;
-  padding: 10px; 
-  border: none;
-  color: #fff;
-  background: #ff6b6c;
-  border-style: inset;
-  cursor: pointer;
-  height: min-content;
-}
 
-
-input.cart:hover, button.cart:hover {
-  background: #ffc145;
 }
 
 /* (B) PRODUCTS LIST */
 #cart-products {
-  display: list-item;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
-  padding: 10px;
+
 }
 .p-item {
-  padding: 10px;
-  border: 1px solid #aaa;
-  text-align: center;
+
 }
 .p-name {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.1em;
+
 }
-.p-img { max-width: 180px; }
+.p-img {
+
+}
 .p-desc {
-  color: #777;
-  font-size: 0.9em;
-  line-height: 1.5em;
+
 }
 .p-price {
-  font-weight: bold;
-  font-size: 1.1em;
-  margin: 10px 0;
+
 }
-input.p-add { width: 80%; }
+input.p-add { 
+
+ }
 
 /* (D) CURRENT SHOPPING CART */
 #cart-items {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-  background: #f1f1f1;
+
 }
 .c-item {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+
 }
 .c-name {
-  width: 100%;
-  font-size: 1.3em;
-  line-height: 1.5em;
+
 }
-.c-del { width: 20%; }
+.c-del {
+
+}
 .c-qty {
-  width: 75%;
-  font-size: 1em;
-  height: 36px;
+
 }
 input.c-empty, input.c-checkout {
-  width: 100%;
-  margin-top: 10px;
+
 }
 
 /* (E) RESPONSIVE */
-@media screen AND (max-width: 3000px) {
-  #cart-wrap { grid-template-columns: 100%;}
+/* @media screen AND (max-width: 768px) {
+  #cart-wrap { grid-template-columns: 60% 40%; }
   #cart-products { grid-template-columns: auto; }
-  #cart-items { grid-template-columns: auto; }
-}
+} */
 
 
 
