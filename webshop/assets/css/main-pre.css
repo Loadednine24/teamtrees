@@ -334,6 +334,7 @@ img {
   all: unset;
   color: var(--text);
   font-size: medium;
+  z-index: 1;
 }
 .button-bottom:hover,
 .button:hover {
