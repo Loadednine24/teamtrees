@@ -27,7 +27,7 @@ document.write(`
             <div style="position: absolute;">
             <picture>
                 <a href="index">
-                <img class="logo" src="assets/logo/logo.png">
+                <img class="logo" src="../assets/logo/logo.png">
                 </a>
             </picture>
             </div>
