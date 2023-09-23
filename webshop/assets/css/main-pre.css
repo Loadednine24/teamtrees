@@ -31,6 +31,11 @@ body {
   height: calc(100% - 430px);
   margin-top: 130px;
 }
+@media (max-width: 1000px) { 
+  .main-body {
+font-size: medium;
+  }
+}
 .main-text {
   margin-top: 5px;
   color: aliceblue;
@@ -81,6 +86,12 @@ a:link {
   max-width: 100%;
   max-height: 100%;
   z-index: -1;
+}
+@media (max-width: 675px) { 
+  .container {
+    max-width: 50%;
+    max-height: 50%;
+  }
 }
 img {
   max-width: 100%;
@@ -142,6 +153,11 @@ img {
   box-sizing: border-box;
   display: block;
 }
+@media (max-width: 1100px) { 
+  .index .sub-bottom {
+    height: 150px;
+  }
+}
 .center-text {
   text-align: center;
   position: relative;
@@ -162,12 +178,32 @@ img {
   flex-direction: column;
   max-width: 320px;
   min-width: 320px;
-  width: 100px;
   height: 250px;
   border: 5px solid var(--text);
 }
+@media (max-width: 1100px) { 
+  .index-pic {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+    min-width: 0;
+    border: none;
+    width: fit-content;
+  }
+}
 .pre-absolute {
-  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 33%;
+  width: 33%;
+}
+@media (max-width: 1100px) { 
+  .pre-absolute {
+    margin-top: 100px;
+  }
 }
 .row {
   display: flex;
@@ -275,16 +311,23 @@ img {
   cursor: pointer;
 }
 .button-bottom {
+  font-size: large;
   background-color: var(--sub);
   color: var(--text);
   border: none;
   cursor: pointer;
   position: absolute;
   bottom: 0;
-  width: 320px;
-  height: 25px;
-  margin-bottom: 20px;
-  margin-left: 30px;
+  width: 18.5%;
+  height: 45px;
+  max-width: 320px;
+  min-width: 320px;
+  margin-bottom: 10px;
+}
+@media (max-width: 1100px) { 
+  .button-bottom {
+    min-width: 0;
+  }
 }
 .button-top {
   all: unset;
