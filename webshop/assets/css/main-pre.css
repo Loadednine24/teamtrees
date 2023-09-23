@@ -22,7 +22,6 @@ html[data-theme='light'] {
 body {
   background-color: var(--main-3);
   font-size: xx-large;
-  z-index: 0;
 }
 .main-body {
   position: absolute;
@@ -31,6 +30,7 @@ body {
   width: 100%;
   height: calc(100% - 430px);
   margin-top: 130px;
+  z-index: 0;
 }
 @media (max-width: 1000px) { 
   .main-body {
