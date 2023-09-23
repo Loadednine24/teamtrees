@@ -115,6 +115,8 @@ img {
 }
 .center-text {
   text-align: center;
+  position: relative;
+  z-index: -1;
 }
 .center .center-text {
   display: flex;
@@ -154,6 +156,7 @@ img {
   justify-content: center;
   align-items:center;
   color: var(--text);
+  position: relative;
   z-index: -1;
 }
 @media (max-width: 1000px) { 
@@ -171,20 +174,18 @@ img {
 .con {
   width: 100%;
   max-height: 100%;
-  min-height: 75vb;
+  min-height: 60vb;
   text-align: center;
   vertical-align: top;
   top:0;
   margin-left: 25px;
   margin-right: 25px;
 }
-.vcard {
-  display: none;
-}
 @media (max-width: 600px) { 
-  .vcard { 
-    display:inline;
-  } 
+.con {
+  max-height: 100%;
+  min-height: 75px;
+  }
 }
 .row-top {
   display: flex;
