@@ -311,6 +311,7 @@ img {
   border-style: inset;
   font-size: larger;
   cursor: pointer;
+  position: flex;
 }
 .button-bottom {
   font-size: large;
@@ -328,7 +329,7 @@ img {
 }
 @media (max-width: 1100px) { 
   .button-bottom {
-    min-width: 180px;
+    min-width: 30%;
     font-size: small;
   }
 }
