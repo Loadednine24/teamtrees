@@ -32,7 +32,7 @@ document.write(`
             </picture>
             </div>
         <div class="sub-row">
-            <div class="sub-text">
+            <div style="margin-left: 150px;" class="sub-text">
                 <a href="index">Home</a>
             </div>
             <div class="sub-text">
@@ -44,7 +44,6 @@ document.write(`
             <div class="sub-text">
                 <a href="contact">Contact</a>
             </div>
-    
             <div class="sub-icon">
                 <a href="index"><i class="bi bi-search"></i>
             </div>

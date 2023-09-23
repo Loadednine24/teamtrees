@@ -31,7 +31,7 @@ document.write(`
                 </a>
             </picture>
             </div>
-        <div class="sub-row">
+        <div style="margin-left: 150px;" class="sub-row">
             <div class="sub-text">
                 <a href="index">Home</a>
             </div>
@@ -44,7 +44,6 @@ document.write(`
             <div class="sub-text">
                 <a href="contact">Contact</a>
             </div>
-    
             <div class="sub-icon">
                 <a href="index"><i class="bi bi-search"></i>
             </div>
@@ -55,7 +54,6 @@ document.write(`
                 <a href="checkout"><i class="bi bi-cart"></i></a>
             </div>
         </div>
-    </div>
     </div>
     </div>
 `);

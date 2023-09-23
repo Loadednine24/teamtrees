@@ -41,15 +41,31 @@ body {
 .sub-icon {
   margin-top: 35px;
   text-align: center;
-  width: 55px;
+  width: 100%;
   font-size: xx-large;
   color: var(--text);
+  margin-right: 20px;
+}
+@media (max-width: 675px) { 
+  .sub-icon {
+    margin-top: 20px;
+    width: fit-content;
+    font-size: small;
+  }
 }
 .sub-text {
   margin-top: 35px;
   text-align: center;
   color: var(--text);
-  width: 100px;
+  width: 100%;
+  margin-right: 20px;
+}
+@media (max-width: 675px) { 
+  .sub-text {
+    margin-top: 20px;
+    font-size: small;
+    width: fit-content;
+  }
 }
 a:visited {
   color: var(--textvar);
@@ -93,11 +109,24 @@ img {
   box-sizing: border-box;
   display: block;
 }
+@media (max-width: 675px) { 
+  .sub-top {
+    height: 50px;
+  }
+}
 .index .logo {
   margin-top: 10px;
   margin-left: 10px;
   height: 80px;
   width: 80px;
+}
+@media (max-width: 675px) { 
+  .index .logo {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+  }
 }
 .index .sub-bottom {
   height: 300px;
@@ -194,11 +223,21 @@ img {
   margin-right: 10%;
   margin-top: -10px;
 }
+@media (max-width: 675px) { 
+  .row-top {
+    margin-right: 0;
+  }
+}
 .sub-row {
   display: flex;
   flex-direction: row;
   max-height: 100px;
   justify-content: flex-end;
+}
+@media (max-width: 600px) { 
+  .sub-row {
+    font-size: small; 
+  }
 }
 .dropdown {
   position: relative;

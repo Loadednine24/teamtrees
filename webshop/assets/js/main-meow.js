@@ -26,12 +26,12 @@ document.write(`
     <div class="sub-top">
             <div style="position: absolute;">
             <picture>
-                <a href="/">
+                <a href="index">
                 <img class="logo" src="../assets/logo/logo.png">
                 </a>
             </picture>
             </div>
-        <div class="sub-row">
+        <div style="margin-left: 150px;" class="sub-row">
             <div class="sub-text">
                 <a href="index">Meow</a>
             </div>
@@ -55,5 +55,5 @@ document.write(`
             </div>
         </div>
     </div>
-</div>
+    </div>
 `);
