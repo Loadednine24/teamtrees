@@ -31,8 +31,8 @@ document.write(`
                 </a>
             </picture>
             </div>
-        <div style="margin-left: 150px;" class="sub-row">
-            <div class="sub-text">
+        <div class="sub-row">
+            <div style="margin-left: 150px;" class="sub-text">
                 <a href="index">Home</a>
             </div>
             <div class="sub-text">
