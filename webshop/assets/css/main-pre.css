@@ -213,7 +213,8 @@ img {
   align-items:center;
   max-height: 885px;
   height: 100%;
-  z-index: -1;
+  position: static;
+  z-index: 0;
 }
 .row-con {
   display: flex;
