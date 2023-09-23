@@ -154,6 +154,7 @@ img {
   justify-content: center;
   align-items:center;
   color: var(--text);
+  z-index: -1;
 }
 @media (max-width: 1000px) { 
   .row-con {
