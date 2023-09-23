@@ -2,13 +2,13 @@ document.write(`
 <div class="index" id="index">
 <div class="row-top">
     <div class="dropdown">
-        <button class="button-top">Switch Dark/Light Mode<i class="bi bi-caret-down-fill"></i></button>
+        <button class="button-top">Knop Dark/Light Mode<i class="bi bi-caret-down-fill"></i></button>
         <div class="dropdown-content">
-            <input class="switch" type="checkbox" id="switch" name="theme"  /><label for="switch"></label>
+            <input class="switch" type="checkbox" id="switch" name="theme"/><label for="switch"></label>
         </div>
     </div>
     <div class="dropdown">
-        <button class="button-top">Language<i class="bi bi-caret-down-fill"></i></button>
+        <button class="button-top">Taal<i class="bi bi-caret-down-fill"></i></button>
         <div class="dropdown-content">
             <a href="../nl/index">Nederlands</a>
             <a href="../en/index">English</a>
@@ -18,8 +18,8 @@ document.write(`
     <div class="dropdown">
         <button class="button-top">login<i class="bi bi-caret-down-fill"></i></button>
         <div class="dropdown-content">
-            <a href="#">Login To Existing Account</a>
-            <a href="#">Create New Account</a>
+            <a href="#">Login naar bestaand account</a>
+            <a href="#">Maak een nieuw Account</a>
         </div>
     </div>
 </div>
@@ -39,7 +39,7 @@ document.write(`
                 <a href="sale">Sale</a>
             </div>
             <div class="sub-text">
-                <a href="pages">Pages</a>
+                <a href="pagina's">Pages</a>
             </div>
             <div class="sub-text">
                 <a href="contact">Contact</a>
