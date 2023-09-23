@@ -22,6 +22,7 @@ html[data-theme='light'] {
 body {
   background-color: var(--main-3);
   font-size: xx-large;
+  z-index: 0;
 }
 .main-body {
   position: absolute;
@@ -85,7 +86,6 @@ a:link {
 .container {
   max-width: 100%;
   max-height: 100%;
-  z-index: 0;
 }
 @media (max-width: 675px) { 
   .container {
@@ -143,7 +143,6 @@ img {
   height: 300px;
   width: 100%;
   position: fixed;
-  z-index: 0;
   bottom: 0;
   left: 0;
   background-color: var(--main-0);
@@ -161,7 +160,6 @@ img {
 .center-text {
   text-align: center;
   position: relative;
-  z-index: 0;
 }
 .center .center-text {
   display: flex;
@@ -214,7 +212,6 @@ img {
   max-height: 885px;
   height: 100%;
   position: static;
-  z-index: 0;
 }
 .row-con {
   display: flex;
@@ -224,7 +221,6 @@ img {
   align-items:center;
   color: var(--text);
   position: relative;
-  z-index: 0;
 }
 @media (max-width: 1000px) { 
   .row-con {
