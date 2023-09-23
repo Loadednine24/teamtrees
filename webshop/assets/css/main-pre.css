@@ -30,7 +30,6 @@ body {
   width: 100%;
   height: calc(100% - 430px);
   margin-top: 130px;
-  z-index: 0;
 }
 @media (max-width: 1000px) { 
   .main-body {
