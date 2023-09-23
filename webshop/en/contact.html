@@ -6,15 +6,46 @@
     </head>
     <body>
         <script src="../assets/js/main-en.js"></script>
-        <h1 style="margin-top: 10%; font-size: xx-large;">Here you will find our contact details:</h1>
-        <div class="tekst">Phone</div>
-        <div class="tekst2" style="font-size: large; margin-top: 0.5%;">Phone: 0612345678<br>International Phone: +31-888-101 005</div>
-        <div class="tekst"><hr>Email</div>
-        <div class="tekst2" style="font-size: large; margin-top: 0.5%;">Email: info@cyberstore.nl</div>
-        <div class="tekst"><hr>Visit</div>
-        <div class="tekst3" style="font-size: large; margin-top: 0.5%;">Cyber is a webshop<br>We do not have a visiting address</div>
-        <div class="tekst"><hr>Company Information</div>
-        <div class="tekst3" style="font-size: large; margin-top: 0.5%;">Siebemaweg 20<br>6224DC Maastricht<br>Nederland</div>
+        <div class="main-body">
+            <div class="center center-text"><h1 style="color: var(--text)">Cyber contact details:</h1></div>
+            <div class="row-con">
+                <div class="con">
+                    <h3 style="text-decoration: underline;">Phone</h3>
+                    <a>Phone:<br>0612345678<br><br>International Phone:<br>+31-888-101 005</a><br>
+                    <a href="vcard.doc"><button class="vcard" style="width:50%">Download</button></a>
+                </div>
+                <div class="con">
+                    <h3 style="text-decoration: underline;">Email</h3>
+                    <a>General help:<br>info@cyberstore.nl<br><br>Customer support:<br>support@cyberstore.nl<br><br></a>
+                    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                        <div class="row">
+                            <label class="required" for="name"></label><br/>
+                            <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Your name.."/><br/>
+                            <span id="name_validation" class="error_message"></span>
+                        </div>
+                        <div class="row">
+                            <label class="required" for="email"></label><br/>
+                            <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="Your e-mail.."/><br/>
+                            <span id="email_validation" class="error_message"></span>
+                        </div>
+                        <div class="row">
+                            <label class="required" for="message"></label><br/>
+                            <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Your message.."></textarea><br/>
+                            <span id="message_validation" class="error_message"></span>
+                        </div>
+                        <input id="submit_button" type="submit" value="Send email"/>
+                    </form>
+                </div>
+                <div class="con">
+                    <h3 style="text-decoration: underline;">Company Information</h3>
+                    <a>Siebemaweg 20<br>6224DC Maastricht<br>Nederland</a>
+                </div>
+                <div class="con">
+                    <h3 style="text-decoration: underline;">Location</h3>
+                    <a>Cyber is an international webshop that has no physical visiting location<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.177267269893!2d5.71488637658068!3d50.84640157167058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0e98e86c9f62b%3A0x952ffbf18f188c5c!2sVISTA%20college!5e0!3m2!1snl!2snl!4v1695478688897!5m2!1snl!2snl" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+                </div>
+            </div>
+        </div>
         <script src="../assets/js/darklight.js"></script>
     </body>
 </html>
