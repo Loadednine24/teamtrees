@@ -326,7 +326,7 @@ img {
 }
 @media (max-width: 1100px) { 
   .button-bottom {
-    min-width: 0;
+    min-width: 180px;
     font-size: small;
   }
 }
