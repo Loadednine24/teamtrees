@@ -323,11 +323,13 @@ img {
   max-width: 320px;
   min-width: 320px;
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 @media (max-width: 1100px) { 
   .button-bottom {
     min-width: 30%;
     font-size: small;
+    margin-left: 0;
   }
 }
 .button-top {
@@ -408,11 +410,6 @@ input.c-checkout {
   width: 75%;
   height: 75%;
 }
-
-form {
-  margin-left: 25px;
-  margin-right: 25px;
-  border-style: solid;}
 
 
 
