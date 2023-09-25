@@ -83,6 +83,8 @@ a:link {
   text-decoration: none;
 }
 .container {
+  position: relative;
+  z-index: -1;
   max-width: 100%;
   max-height: 100%;
 }
